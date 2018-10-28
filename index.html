@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="manifest" href="/manifest.json">
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "f0747e2e-2ec5-454a-bcdd-62a1a08b396e",
+    });
+  });
+</script>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,300,700'><link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'><link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8738086967044495",
+          enable_page_level_ads: true
+     });
+</script>
+
+</head>
+
+  <body>
+   
+ 
+<div >
+  <div class="mobile" >
+    <div class="header">
+      <span class="ion-ios-navicon pull-left"><i></i></span>
+      <span class="title">Historial</span>
+
+     
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-overlay"></div>
+      <div class="sidebar-content">
+        <div class="top-head">
+          <div class="name">Letras De Mariachi</div>
+          <div><a target=”_blank” href="https://www.facebook.com/victorhugo.enriquez.16?ref=br_rs">Victor Enriquez</a></div>
+        </div>
+        <div class="nav-left">
+          <a href="#"  onclick="contenidoAlDom()"><span class="ion-ios-person-outline" ></span>Historial</a>
+          <a href="#" name="pedro_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Pedro Infante</a>
+          <a href="#" name="josealfredo_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Jose A. Jimenez</a>
+          <a href="#" name="vicente_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Vicente Fernandez</a>
+          <a href="#" name="negrete_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Jorge Negrete</a>
+          <a href="#" name="antonio_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Antonio Aguilar</a>
+          <a href="#" name="javier_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Javier Solis</a>
+          <a href="#" name="rocio_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Rocio Durcal</a>
+          <a href="#" name="juanga_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Juan Gabriel</a>
+          <a href="#" name="vargas_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Mariachi Varios</a>
+          <a href="#" name="alex_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Alejandro Fernandez</a>
+          <a href="#" name="joan_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Joan Sebastian</a>
+          <a href="#" name="banda_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Banda</a>
+          <a href="#" name="lucha_lista" onclick="listar(this.name)"><span class="ion-ios-person-outline" ></span>Lucha Villa</a>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+       <div style="height: 100vh">
+          <div class="flex-center flex-column">
+                
+              <div>
+              
+                 <nav class="navbar navbar-light bg-light">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="cambios" onchange="
+                    cambio(this.value)">
+                  </nav>
+              </div>
+
+              <div>
+                  <div id="mostrar" style="color: black;"></div>
+              </div>
+              <div>
+                <button type="button" id="borrar_storage" class="btn btn-warning btn-lg">Eliminar Historial</button>
+              </div>
+
+          </div>
+      </div>
+    
+   </div>
+</div>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+<script src="app.js"></script>
+ <script src="./script.js"></script>
+
+</body>
+
+</html>

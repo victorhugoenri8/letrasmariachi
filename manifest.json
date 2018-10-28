@@ -1,0 +1,26 @@
+{
+  "name": "#Letras De Mariachi",
+  "short_name": "#Letras De Mariachi",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#3b5998",
+  "background_color": "#8b9dc3",
+  "icons": [{
+    "src": "/notasr.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "/notas.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },{
+      "src": "/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }],
+     
+      "gcm_sender_id": "482941778795",
+      "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+    
+}
